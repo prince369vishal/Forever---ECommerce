@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../context/ShopContext";
-import Ttile from "./Ttile";
+import Title from "./Title";
 import ProductItem from "./ProductItem";
 
 const LatestCollection = () => {
@@ -14,7 +14,7 @@ const LatestCollection = () => {
   return (
     <div className="my-10">
       <div className="text-center py-8 text-3xl">
-        <Ttile text1="LATEST" text2="COLLECTIONS" />
+        <Title text1="LATEST" text2="COLLECTIONS" />
         <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem
           a fuga explicabo.
