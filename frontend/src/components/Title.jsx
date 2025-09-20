@@ -1,6 +1,6 @@
 import React from "react";
 
-const Ttile = ({ text1, text2 }) => {
+const Title = ({ text1, text2 }) => {
   return (
     <div className="inline-flex gap-2 items-center mb-3">
       <p className="text-gray-500">
@@ -11,4 +11,4 @@ const Ttile = ({ text1, text2 }) => {
   );
 };
 
-export default Ttile;
+export default Title;
