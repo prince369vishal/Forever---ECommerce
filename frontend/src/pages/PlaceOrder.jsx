@@ -99,6 +99,8 @@ const PlaceOrder = () => {
           break;
         default:
           break;
+
+ 
       }
     } catch (error) {
       console.log(error);
